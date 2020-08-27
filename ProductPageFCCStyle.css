@@ -1,11 +1,29 @@
 .mainBody {
-    margin-top: 120px;
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+.descripText {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #f23405
 }
 
 .about {
@@ -14,12 +32,37 @@
     justify-content: center;
 }
 
-.product {
+.card-img-top {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.buyButton {
+    margin: 5px;
+}
+
+#videoContainer {
     justify-content: center;
-    border: 5px;
-    margin: 2px;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .contactUsContainer {
+    justify-content: center;
     border: 10px;
+    margin-bottom: 20px;
+}
+
+.formContainer {
+    width: 500px;
+}
+
+.footer {
+    text-align: center;
+    margin-left: 10px;
 }
